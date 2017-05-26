@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `/Users/Joey/Programming/Flutter/flutter/bin/cache/artifacts/engine/ios`)
+  - url_launcher (from `/Users/Joey/.pub-cache/hosted/pub.dartlang.org/url_launcher-0.4.2+1/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: /Users/Joey/Programming/Flutter/flutter/bin/cache/artifacts/engine/ios
+  url_launcher:
+    :path: /Users/Joey/.pub-cache/hosted/pub.dartlang.org/url_launcher-0.4.2+1/ios
+
+SPEC CHECKSUMS:
+  Flutter: d674e78c937094a75ac71dd77e921e840bea3dbf
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+
+PODFILE CHECKSUM: 5eab8e04855a0d4454d571c616b92a56bae81fad
+
+COCOAPODS: 1.2.1
