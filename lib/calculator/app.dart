@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'home.dart';
 
-class Calculator extends StatefulWidget {
-  const Calculator({Key key}) : super(key: key);
+class FlutterCalc extends StatefulWidget {
+  const FlutterCalc({Key key}) : super(key: key);
 
   @override
-  _CalculatorState createState() => new _CalculatorState();
+  _FlutterCalcState createState() => new _FlutterCalcState();
 }
 
-class _CalculatorState extends State<Calculator> {
+class _FlutterCalcState extends State<FlutterCalc> {
   @override
   Widget build(BuildContext context) {
     Widget home = new CalculatorHome();
 
     return new MaterialApp(
-      title: "Flutter Calculator",
+      title: "Flutter Calc",
       home: home,
     );
   }
