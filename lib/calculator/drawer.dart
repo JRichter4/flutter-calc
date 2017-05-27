@@ -11,8 +11,6 @@ class CalculatorDrawerHeader extends StatefulWidget {
 class _CalculatorDrawerHeaderState extends State<CalculatorDrawerHeader> {
   @override
   Widget build(BuildContext context) {
-    //final double systemTopPadding = MediaQuery.of(context).padding.top;
-
     return new DrawerHeader(
       child: new Text("Header"),
     );
@@ -33,7 +31,7 @@ class CalculatorDrawer extends StatelessWidget {
       icon: new Icon(Icons.help_outline),
       applicationVersion: 'Alpha Pre-Release',
       applicationIcon: new Icon(Icons.iso),
-      applicationLegalese: '© Joe Richter Development 2017',
+      applicationLegalese: '\u{00A9} 2017 Joe Richter Development',
       aboutBoxChildren: <Widget>[
         new Padding(
           padding: const EdgeInsets.only(top: 20.0),
