@@ -29,7 +29,7 @@ class _CalcDisplayState extends State<CalcDisplay> {
             flex: 1,
             child: new Text("Results Display"),
           ),
-          const Divider(height: 1.0),
+          new Divider(height: 1.0),
           new Expanded(
             flex: 1,
             child: new Text("Edit Content Row"),

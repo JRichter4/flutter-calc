@@ -36,24 +36,16 @@ class CalcPad extends StatelessWidget {
           ),
         ),
         new Expanded(
-//          child: new Container(
+          child: new Container(
 //            decoration: new BoxDecoration(color: Colors.greenAccent),
-//            child: new Column(
-//              children: <Widget>[
-//                new FlutterKey("\u{002D}", "Operator", null),
-//                new FlutterKey("\u{00F7}", "Operator", null),
-//                new FlutterKey("\u{002B}", "Operator", null),
-//                new FlutterKey("\u{00D7}", "Operator", null),
-//              ],
-//            ),
-//          ),
-          child: new Column(
-            children: <Widget>[
-              new FlutterKey("\u{002D}", "Operator", null),
-              new FlutterKey("\u{00F7}", "Operator", null),
-              new FlutterKey("\u{002B}", "Operator", null),
-              new FlutterKey("\u{00D7}", "Operator", null),
-            ],
+            child: new Column(
+              children: <Widget>[
+                new FlutterKey("\u{00F7}", "Operator", null),
+                new FlutterKey("\u{00D7}", "Operator", null),
+                new FlutterKey("\u{002D}", "Operator", null),
+                new FlutterKey("\u{002B}", "Operator", null),
+              ],
+            ),
           ),
         ),
       ],
