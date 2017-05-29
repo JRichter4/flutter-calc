@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'drawer.dart';
 
-class CalculatorHome extends StatefulWidget {
-  const CalculatorHome({Key key}) : super(key: key);
+class FlutterCalcHome extends StatefulWidget {
+  FlutterCalcHome({Key key}) : super(key: key);
 
   @override
-  _CalculatorHomeState createState() => new _CalculatorHomeState();
+  _FlutterCalcHome createState() => new _FlutterCalcHome();
 }
 
-class _CalculatorHomeState extends State<CalculatorHome> {
+class _FlutterCalcHome extends State<FlutterCalcHome> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text("Flutter Calculator")
       ),
-      drawer: new CalculatorDrawer(),
+      drawer: new FlutterCalcDrawer(),
       body: new Center(
         child: new Text("Flutter Calculator Main Page")
       ),

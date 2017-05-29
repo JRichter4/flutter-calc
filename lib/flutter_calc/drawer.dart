@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:calculator/tools/link_text_span.dart';
 
 class CalculatorDrawerHeader extends StatefulWidget {
-  const CalculatorDrawerHeader({Key key}) : super(key: key);
+  CalculatorDrawerHeader({Key key}) : super(key: key);
 
   @override
   _CalculatorDrawerHeaderState createState() => new _CalculatorDrawerHeaderState();
@@ -17,8 +17,8 @@ class _CalculatorDrawerHeaderState extends State<CalculatorDrawerHeader> {
   }
 }
 
-class CalculatorDrawer extends StatelessWidget {
-  CalculatorDrawer({Key key}) : super (key: key);
+class FlutterCalcDrawer extends StatelessWidget {
+  FlutterCalcDrawer({Key key}) : super (key: key);
 
   @override
   Widget build(BuildContext context) {
